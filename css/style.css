@@ -149,7 +149,6 @@ h4{
 
 .flexContainer{ 
     display: flex;
-    justify-content: center;
     padding: 60px 30px;
 }
 
@@ -160,6 +159,14 @@ h4{
 
 #flex{
     flex-direction: row;
+}
+
+#testimonials{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
 }
 
 
