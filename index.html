@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/89bed5a649.js" crossorigin="anonymous"></script>
   </head>
@@ -25,6 +25,22 @@
         <li><a href="mailto:ywkuouxui@gmail.com">Contact</a></li>
       </ul>
     </div>
+
+    <script>
+        $(document).ready(function(){
+          $("a").on({
+            mouseenter: function(){
+              $(this).css("text-decoration", "underline");
+            },  
+            mouseleave: function(){
+              $(this).css("color", "#333333");
+            }, 
+            click: function(){
+              $(this).css("color", "#C8911B");
+            }  
+          });
+        });
+        </script>
 </section>    
 
 <!-- // Hero Image //  -->
@@ -49,25 +65,24 @@
         <img src="/images/icons8-photo-64.png" alt="project photo">
       </div>
       <div class="project-descript">
-        <h4>Project Title #1</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque voluptatibus exercitationem magnam aut nobis sapiente dignissimos aperiam porro architecto, ea tempore rerum explicabo quod laudantium, vitae vel sed incidunt!</p>
-        <button>View the Project</buton>
+        <h4>Atlanta Women for Equality<i class='fas fa-angle-double-right' style='font-size:36px'></i></h4>
+        <p>UI Redesign and navigation prototype website of non-profit organization </p>
       </div>
       <div class="projectImg">
         <img src="/images/icons8-photo-64.png" alt="project photo">
       </div>
       <div class="project-descript">
-        <h4>Project Title #2</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque voluptatibus exercitationem magnam aut nobis sapiente dignissimos aperiam porro architecto, ea tempore rerum explicabo quod laudantium, vitae vel sed incidunt!</p>
-        <button>View the Project</button>
+        <h4>Government Webiste Redesign<i class='fas fa-angle-double-right' style='font-size:36px'></i></h4>
+        <p>The aim of this project was to redesign and update the Department of Homeland Security website with a focus on the user experience in navigating the website. 
+        </p>
       </div>
       <div class="projectImg">
         <img src="/images/icons8-photo-64.png" alt="project photo">
       </div>
       <div class="project-descript">
-        <h4>Project Title #3</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque voluptatibus exercitationem magnam aut nobis sapiente dignissimos aperiam porro architecto, ea tempore rerum explicabo quod laudantium, vitae vel sed incidunt!</p>
-        <button>View the Project</button>
+        <h4>Travel Safe Mobile App<i class='fas fa-angle-double-right' style='font-size:36px'></i></h4>
+        <p>The goal of this project was to create a post-pandemic mobile travel app with safety in mind, focusing on creating an account. 
+        </p>
     </div>
 
   </section>
