@@ -129,3 +129,42 @@ p{
     background-color: aliceblue;
     box-shadow: 8px 8px 10px grey;
 }
+
+/* Skills - I've tried many times to make the cards align right next to each others, even this TA's help. But they won't work :( */
+.mySkills{
+    text-align: center;
+    flex-direction: row;
+}
+
+.flexContainer{ 
+    display: flex;
+    padding: 60px 30px;
+}
+
+.card{
+    border: 1px solid red;
+    width: 400px;
+}
+
+#flex{
+    flex-direction: row;
+}
+
+
+/* Footer */
+
+footer{
+    text-align: center;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+.fa-brands{
+    color: #bbb;
+}
+
+.solid p{
+    color: #bbb;
+}

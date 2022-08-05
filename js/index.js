@@ -1,9 +1,16 @@
 console.log("your index.js file is loaded correctly!");
 
-$( "li" ).hover(
+$( ".card" ).hover(//triger when mouse hover
     function() {
-      $( this ).append( $( "text-decoration=underline" ) );
-    }, function() {
-      $( this ).find( "span" ).last().remove();
+      $( this ).animate({
+        marginTop: "-=1%",
+      }, 200);
+      
+      //triger when mouse leav
+      function(){
+        $(this).animate({
+            marginTop: "0%"
+        }, 200)
+      }
     }
   );
