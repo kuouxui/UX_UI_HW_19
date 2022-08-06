@@ -143,9 +143,9 @@ h4{
 
 
 /* Skills - I've tried many times to make the cards align right next to each others, even this TA's help. But they won't work :( */
-.mySkills{
+/* .mySkills{
     text-align: center;
-}
+} */
 
 .flexContainer{ 
     display: flex;
